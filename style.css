@@ -1,34 +1,69 @@
+body{
+    background-color: #1d1831;
+}
+
 h1,p{
     margin: 0;
     text-align: center;
+    padding: .16rem 0;
+    color:#eae4dd;
+    background-color: #322a52;
 }
 form{
     width: 30%;
     margin: 0 auto;
-    padding: 2.5rem;
+    padding: 0.1% 2%;
+    margin-top: .5%;
+    border: 2px solid #322a52;
+    border-width: 3px;
+    border-radius: 1%;
+    color:#eae4dd;
+    background-color: #322a52;
+    
 }
 input{
     width: 100%;
     margin: 0.6rem 0;
-    padding: .2rem 0;
+    padding: 0.3rem 0;
+    color: #322a52;
+    background-color: #eae4dd;
+    
 }
 #dropdown{
     width: 100%;
     margin: 0.6rem 0;
-    padding: .2rem 0;
+    padding: 0.4rem 0;
+    
+}
+select{
+    color: #5b5768;
+    background-color: #eae4dde0;
 }
 label{
     display: block;
     margin: 0.1rem 0;
-    padding: .6rem 0;
+    margin-bottom: .3rem;
     
 }
 input[type="radio"],input[type="checkbox"]{
     width: unset;
     vertical-align: middle;
-    margin: 0.5%;
+    margin: 0.5rem;
+
     
 }
-#recommend{
+label :last-of-type{
+    vertical-align: top;
+}
+textarea{
+    margin-top: .5%;
+    width:99%;
     
+}
+#textarea{
+    color: #322a52;
+    background-color: #eae4dd;
+}
+#submit{
+    height: 5%;
 }
